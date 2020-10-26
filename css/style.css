@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans';
+	font-size: 16px;
+	color: #333;
+}
+
+img{
+	width: 100%
+}
+
+header{
+    padding: 30px 0px;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 15%;
+    flex: 0 0 auto;
+}
+.logo a{}
+
+.logo img{}
+
+nav{
+    width: 85%;
+    flex: 0 0 auto;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav ul li{}
+
+nav ul li a{
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 15px 50px;
+    display: block;
+    transition-duration: 1s
+
+}
+
+nav ul li a:hover{
+    background: #ff0606;
+    color: white;
+}
+
+.banner-section{
+	width: 100%
+}
+
+.banner-section img{}
+
+.blog-section{}
+
+.col-1-1{
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 50px;
+}
+
+.col-2-1{
+    width: 50%;
+    flex: 0 0 auto;
+    padding: 50px;
+}
+.pad-left{
+	padding-left: 100px;
+}
+.pad-right{
+	padding-right: 100px;
+}
+article{}
+
+article span{
+    color: #0000003d;
+    display: block;
+    font-size: 20px;
+    margin-top: 18px;
+}
+
+article h1{
+    font-size: 29px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+article h1 a{
+    color: #333;
+}
+
+article p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 22px;
+}
+
+article a{
+    color: #0000005c;
+    text-decoration: none;
+}
+
+article a:hover{}
+
+article img{
+    width: 100%;
+}
+
+li{
+	list-style: none;
+}
+footer{
+    background: #0000003d;
+}
+footer .col-2-1{
+	padding: 30px 100px;
+}
+ul.footer-menu{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.footer-menu li{}
+ul.footer-menu li a{
+    display: block;
+    color: #141313;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+ul.footer-menu li a:hover{}
+
+ul.social-menu{
+    justify-content: flex-end;
+}
+ul.social-menu li{}
+ul.social-menu li span{display: block;color: #333;text-decoration: none;font-weight: 400;font-size: 16px;padding: 5px 20px;}
+ul.social-menu li a{
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+}
+ul.social-menu li a:hover{
+	 background: #ff0606;
+     color: white;
+}
